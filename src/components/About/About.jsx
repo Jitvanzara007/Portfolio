@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.png';
+import profileImage from '../../assets/profile2.jpg';
 
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Tarun Kaushik
+            Jitu Vanzara
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -26,8 +26,8 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Developer',
-                'App Developer',
-                'UI/UX Designer',
+                'Frontend Developer',
+                'Web Developer',
                 'Coder',
               ]}
               speed={100}
@@ -41,15 +41,11 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+          I am a passionate front-end developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React.js. I enjoy creating responsive, user-friendly web interfaces with clean design and smooth interactions. I have built several personal projects focused on real-world use cases, including landing pages, portfolio websites, and single-page applications. I am eager to join a team where I can grow my skills and contribute to building beautiful and functional web experiences.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
+            href="https://drive.google.com/file/d/1VO7LfJeAvh1sQEZ5C02oRE1p1uzulaMC/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
